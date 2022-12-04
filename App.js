@@ -9,6 +9,7 @@ import {
   Image,
   ScrollView,
 } from "react-native";
+import { Fontisto } from "@expo/vector-icons";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
@@ -50,19 +51,34 @@ export default function App() {
       >
         <View style={styles.day}>
           <Text style={styles.temp}>27</Text>
-          <Text style={styles.description}>Sunny</Text>
+          <Text style={styles.description}>
+            <Fontisto name="day-sunny" size={40} color="black" />
+            Sunny
+          </Text>
         </View>
         <View style={styles.day}>
+          <Fontisto name="day-cloudy" size={100} color="black" />
           <Text style={styles.temp}>27</Text>
-          <Text style={styles.description}>Sunny</Text>
+          <Text style={styles.description}>
+            <Fontisto name="day-sunny" size={40} color="black" />
+            Sunny
+          </Text>
         </View>
         <View style={styles.day}>
+          <Fontisto name="day-cloudy" size={100} color="black" />
           <Text style={styles.temp}>27</Text>
-          <Text style={styles.description}>Sunny</Text>
+          <Text style={styles.description}>
+            <Fontisto name="day-sunny" size={40} color="black" />
+            Sunny
+          </Text>
         </View>
         <View style={styles.day}>
+          <Fontisto name="day-cloudy" size={100} color="black" />
           <Text style={styles.temp}>27</Text>
-          <Text style={styles.description}>Sunny</Text>
+          <Text style={styles.description}>
+            <Fontisto name="day-sunny" size={40} color="black" />
+            Sunny
+          </Text>
         </View>
       </ScrollView>
     </View>
